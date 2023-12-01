@@ -1,0 +1,288 @@
+/* General Styles */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .row {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  } 
+  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+  
+  /* Header Styles */
+  /* .header {
+   
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+  }
+  
+  .nav__items {
+    list-style: none;
+    display: flex;
+    padding: 70px;
+    
+  }
+  
+  .nav__item {
+    margin: 0 10px;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav__link:hover {
+    color: #ff69b4;
+  }
+  
+  .header__text-box {
+    text-align: center;
+  } */
+  
+  .heading-primary {
+    font-size: 3.5rem;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: palevioletred; /* Customize the text color */
+  }
+  
+  /* Work Section Styles */
+  .work {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .work h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .work__box {
+    display: flex;
+    margin: 40px 0;
+  }
+  
+  .work__text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .work__text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .work__text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .work__list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .work__list li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .work__image-box {
+    flex: 1;
+  }
+  
+  .work__image {
+    width: 100%;
+  }
+  .work__list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .work__list li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    border-radius: 50%; 
+    background-color: #ff69b4; 
+    color: #fff; 
+    padding: 8px 15px; 
+  }
+   
+  
+  /* Clients Section Styles */
+  .client {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .client h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .client__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .client__logo {
+    max-width: 100px;
+    margin: 20px;
+  }
+  
+  /* About Section Styles */
+  .about {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about__text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .about__text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .about__text a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about__photo-container {
+    flex: 1;
+  }
+  
+  .about__photo {
+    max-width: 100%;
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact__info {
+    text-align: left;
+  }
+  
+  /* Footer Styles */
+  .footer {
+   
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  
+  /* Back-to-top Button Styles */
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .back-to-top__image {
+    width: 40px;
+    height: 70%;
+    background-color: #e64a8f;
+    border-radius: 50%; /* Make the button round */
+  }
+/* Contact Section Styles */
+.contact {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact__info {
+    text-align: left;
+  }
+  
+  .contact__info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .contact__info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px; 
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact__info .btn:hover {
+    background-color: #e64a8f;
+  }
+  .btn--cyan {
+   color: #00FFFF;
+    color: #fff;
+  }
+  
+  .btn--cyan:hover {
+   color: #00CED1;
+  }
+  .header__text-box {
+    text-align: center;
+  }
+    
